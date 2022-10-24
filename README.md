@@ -32,6 +32,6 @@ En el siguiente enlace se presenta el diseño del proyecto [Mockups del proyecto
 
 CC POR 2.0
 
-![]{https://concepto.de/wp-content/uploads/2018/10/dominio-de-internet1-e1538400278452.jpg}
+![]{https://concepto.de/wp-content/uploads/2018/10/dominio-de-internet1-e1538400278452.jpg }
 
 Dominio público
