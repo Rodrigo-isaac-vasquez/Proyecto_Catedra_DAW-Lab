@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <br><br><br><br><br><br><br>
+    <div class="container">
+        <div class="col-sm-6 mx-auto Transparent">
+            <div class="card mt-5 Transparent">
+                <div class="card-body Caja-Base">
+                    <h1 class="text-center">
+                        <span class="fa fa-sing-in">Login</span>
+                    </h1>
+
+                    <div class="alert alert-danger">
+                        <% if (message.length > 0) {  %> 
+                            <div class="alert alert-danger">
+                                <%= message %>
+                            </div>
+                        <% } %>
+                    </div>
+
+                    <form action="/login" method="post">
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contraseña</label>
+                            <input type="password" name="password" class="form-control">
+                        </div><br>
+                        <input type="submit" class="btn btn-dark btn-lg">
+                    </form>
+
+
+                    <hr>
+                    <div class="text-center">
+                        <p>Necesitas una cuenta? <a href="/singup">Resgitrate aqui</a></p>
+                        <p>o quieres ir a<a href="/">pagina Inicial</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <style>
+
+body{
+    background-image: url(https://live.staticflickr.com/1954/43090733340_ff8d7d7721_b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Caja-Base{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(3, 0, 163, 0.37);
+    border-radius: 25px;
+    color: white;
+}
+
+.Transparent{
+    background: transparent;
+    border: none;
+}
+    </style>
+</body>
+</html>
