@@ -7,9 +7,6 @@ Esta aplicación está desarrollado por distintos lenguajes de porgramción y al
 
 El objetivo principal  que tiene el sistema es llevar a cabo la gestión de torneos de ping pong de manera digital,  el cual contiene una funcionalidad bastante amplia para el usuario.
 
-### Vista previa
-
-
 ### Autores
 
 
