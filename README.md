@@ -24,7 +24,7 @@ Para la organización y administración de este proyecto se ha utlizado una herr
 
 ### Modelo del sistema
 
-En el siguiente enlace se presenta el diseño del proyecto [Mockups del proyecto](https://balsamiq.cloud/stftzh8/pe25jhi "Mockups del proyecto")
+En el siguiente enlace se presenta el diseño del proyecto [Mockups del proyecto](https://balsamiq.cloud/stftzh8/pe25jhi "Mockups del proyecto").
 
 ### Licencias
 
